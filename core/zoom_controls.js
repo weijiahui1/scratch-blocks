@@ -182,7 +182,7 @@ Blockly.ZoomControls.prototype.position = function() {
     this.top_ -= metrics.flyoutHeight;
   }
   this.svgGroup_.setAttribute('transform',
-      'translate(' + this.left_ + ',' + this.top_ + ')');
+      'translate(' + this.left_ + ',' + this.top_ / 2 + ')');
 };
 
 /**
